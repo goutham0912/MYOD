@@ -1,0 +1,90 @@
+.parallax1{
+  background: url("gray-bridge-and-trees-3.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+  padding: 100px 35px;
+}
+
+.parallax2{
+  background: url("diary-2.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+  padding: 100px 35px;
+}
+
+.parallax3{
+  background: url("sunset-330.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+  padding: 100px 35px;
+}
+
+  body{
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: yellowgreen;
+  }
+
+  #grad2 {
+    height: 1000px;
+    background-color: pink;
+    /*background-image: linear-gradient(orange, purple);*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #grad3 {
+    height: 1000px;
+    background-color: #000000;
+    /*background-image: linear-gradient(purple, red);*/
+    background-attachment: fixed;
+  }
+  #grad4 {
+    height: 1000px;
+    background-color: #000000;
+    /*background-image: linear-gradient(red, black);*/
+  }
+  #grad5 {
+    height: 1000px;
+    background-color: #000000;
+    /*background-image: linear-gradient(black, brown);*/
+  }
+
+  #text{
+    font-size: 2em;
+  }
+
+  #arrow{
+      display: absolute;
+      margin-top: 60px;
+      margin-bottom: 18px;
+      width: 100px;
+      right: 10;
+      animation: mover 0.5s infinite alternate;
+
+  }
+
+   @keyframes mover{
+      0%{transform:translateY(0);}
+      100%{transform:translateY(-20px);}
+
+  }
+
+
+  .rotate {
+    animation: rotation 8s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

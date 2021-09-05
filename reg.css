@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    padding: 1px;
+    background-image: linear-gradient(135deg, #1CD8D2, #93EDC7);
+    background-repeat: no-repeat;
+
+    font-family: 'Big Shoulders Text', cursive;
+    height: 100%;
+    margin: 0%;
+    background-attachment: fixed;    
+}
+
+#header{
+    padding: 0%;
+    margin: 0%;
+    top:0;
+}
+
+#detailed img{
+    position: absolute;
+    right: 100px;
+    width: 50%;
+    height: 50%;
+}
+
+#detailed p{
+    padding: 10px;
+    font-size: 3em;
+    color: darkorange;
+}
+
+.container{
+    position: absolute;
+
+    top: 1000px;
+}

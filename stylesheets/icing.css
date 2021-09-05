@@ -1,0 +1,48 @@
+body,html{
+  height: 100%;
+  background-image: transparent;
+}
+
+#gloss, #blueberry,#choco,#gapple,#strawberry{
+  position: relative;
+  top:500px;
+  left:100px;
+  font-size: 20px;
+}
+
+#option{
+  font-size: 40px;
+  font-family: 'Permanent Marker', cursive;
+  color : #33D6CB;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('../assets/base.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rotate {
+  position: relative;
+  height: 420px;
+  width: 420px;
+  top : 300px;
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

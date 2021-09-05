@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+body {
+background-image: url('lcd.jpg');
+margin: 0%;
+padding: 0%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-size: 1920px 1200px;
+font-family: 'Staatliches', cursive;
+}
+.bottom-left {
+
+position: absolute;
+bottom: 80px;
+right: 0%;
+background-color: darkgrey;;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.header{
+    background-color: #f4c4f3;
+}
+#login {
+    position: absolute;
+    font-size: 2em;
+    /*background-color:aqua;*/
+    text-decoration: none;
+    right: 200px;
+    padding: 5px;
+    border-radius: 12px;
+    color: #212226;
+}
+#signup{
+    position: absolute;
+    font-size: 2em;
+    text-decoration: none;
+    right: 12px;
+    padding: 5px;
+    color: #212226;
+}

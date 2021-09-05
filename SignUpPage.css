@@ -1,0 +1,36 @@
+a:link{
+    color: peachpuff;
+}
+a:visited{
+    color: darkorange;
+}
+a:hover{
+    color: darkblue;
+}
+
+h2{
+    color: plum;;
+}
+
+h1{
+    color: peachpuff;
+}
+
+h3,h4{
+    color: pink;
+}
+
+h5{
+    color: silver;;
+}
+
+body{
+    background-image: linear-gradient(to right, #20002c, #cbb4d4);
+    margin-top: 150px !important;
+}
+
+.left_alignment{
+    text-align: center;
+    color:#fff;
+    padding: 30px;
+}
